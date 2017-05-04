@@ -1,4 +1,4 @@
-grid on
+function [E,Ex,Ey]=CalE(Q,X,Y)
 epsilon=8.85*10^(-12);
 x=-40:0.5:40;
 y=1.5;
@@ -39,5 +39,4 @@ B=[(y-Y(1))./((x-X(1)).^2+(y-Y(1)).^2);
    (y-Y(16))./((x-X(16)).^2+(y-Y(16)).^2)];
 Ex=abs(Q*A./2/pi/epsilon);
 Ey=abs(Q*B./2/pi/epsilon);
-
-plot(sqrt(Ex.^2+Ey.^2))
+E=sqrt(Ex.^2+Ey.^2);
