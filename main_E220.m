@@ -18,9 +18,6 @@ for i=1:6
     plot(x,E(i,:),'linewidth',2)
     hold on
 end
-
-
-
 grid on
 xlabel('Position(m)','FontSize',18)
 ylabel('E-field(V/m)','FontSize',18)
