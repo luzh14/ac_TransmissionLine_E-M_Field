@@ -41,7 +41,7 @@ end
 
 alpha=1/2/pi/epsilon.*alpha;
 Q=U/alpha;
-X=[x1 x2 x3 x4 x5 x6 x7 x8 x1 x2 x3 x4 x5 x6 x7 x8];
+X=[x1 x2 x3 x4 x5 x6 x7 x8  x1  x2  x3  x4  x5  x6  x7  x8];
 Y=[y1 y2 y3 y4 y5 y6 y7 y8 -y1 -y2 -y3 -y4 -y5 -y6 -y7 -y8];
-Q=[Q -Q]
+Q=[Q -Q];
 
